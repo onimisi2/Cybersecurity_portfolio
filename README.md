@@ -9,8 +9,8 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 - Linux & Windows Enumeration
 
 ### 🔧 Projects & Writeups
-
-
+### HTB Writeups
+- [Pennyworth](HTB-Writeups/pennyworth.md)
 ### 📜 Certifications
 
 
