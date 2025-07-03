@@ -12,6 +12,7 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 ### HTB Writeups
 - [Pennyworth](HTB-Writeups/pennyworth.md)
 - [archetype](HTB-Writeups/archetype.md)
+- [oopsie](HTB-Writeups/oopsie.md)
 ### 📜 Certifications
 
 
