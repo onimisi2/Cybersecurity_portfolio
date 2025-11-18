@@ -15,7 +15,8 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 - [oopsie](HTB-Writeups/oopsie.md)
 
 ### PROJECTS
-- [Kelogger]
+- [Kelogger](PROJECTS/keylogger.md)
+- 
   
 ### 📜 Certifications
 
