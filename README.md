@@ -15,7 +15,7 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 - [oopsie](HTB-Writeups/oopsie.md)
 
 ### PROJECTS
-- [Kelogger](PROJECTS/keylogger.md)
+- PROJECTS/keylogger
 - [dvwapentest](PROJECTS/DVWA.MD)
 - 
   
