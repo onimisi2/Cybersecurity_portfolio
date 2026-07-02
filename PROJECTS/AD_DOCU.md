@@ -128,3 +128,7 @@ Organizational Unit Design
 User Management
 Group Policy Configuration
 Windows Server Administration
+
+Lessons Learned
+
+This lab reinforced how Active Directory structures enterprise environments through Organizational Units and centralized Group Policy. It also demonstrated why password policies should be managed carefully, as relaxing security settings may simplify testing but significantly reduces security in production environments.
