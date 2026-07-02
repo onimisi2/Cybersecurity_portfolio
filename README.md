@@ -14,10 +14,13 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 - [archetype](HTB-Writeups/archetype.md)
 - [oopsie](HTB-Writeups/oopsie.md)
 
+
 ### PROJECTS
 - [Keylogger](PROJECTS/keylogger)
 - [dvwapentest](PROJECTS/dvwa.md)
 - [Active_directory](PROJECTS/AD_DOCU.md)
+- [FIREWALL HARDENING](PROJECTS/FW_hardening.md)
+- 
   
 ### 📜 Certifications
 
