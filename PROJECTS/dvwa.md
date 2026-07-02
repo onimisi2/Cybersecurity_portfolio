@@ -147,3 +147,43 @@ failed login attempts. Enable multi-factor authentication on administrative acco
 ---
 
 ## Attack Chain Summary
+
+Nmap (version disclosure)
+↓
+Gobuster (directory enumeration)
+↓
+/config directory listing exposed
+↓
+config.inc.php.bak downloaded (database credentials)
+↓
+Docker exec → MariaDB access → users table dumped
+↓
+MD5 hashes cracked via CrackStation
+↓
+Admin login successful — full application compromise
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Nmap | Port scanning and service version detection |
+| Gobuster | Directory and file enumeration |
+| MariaDB client | Direct database access |
+| CrackStation | MD5 hash cracking via rainbow tables |
+| Docker | Container shell access |
+
+---
+
+## Lessons Learned
+
+- Backup files left in web-accessible directories are a critical risk
+- Directory listing should always be disabled in production
+- MD5 is not a suitable algorithm for password storage
+- Password reuse across accounts multiplies the impact of a single compromise
+- Version disclosure through server headers assists attackers in targeting known CVEs
+
+---
+
+*This test was conducted in a controlled lab environment for educational purposes.*
