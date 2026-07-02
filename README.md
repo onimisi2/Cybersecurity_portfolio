@@ -16,7 +16,7 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 
 ### PROJECTS
 - [Keylogger](PROJECTS/keylogger)
-- [dvwapentest](PROJECTS/DVWA.MD)
+- [dvwapentest](PROJECTS/dvwa.md)
 - 
   
 ### 📜 Certifications
