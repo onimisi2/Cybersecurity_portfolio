@@ -25,6 +25,7 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
 - 
   
 ### 📜 Certifications
-
+- CCNA
+- COMPTIA SECURITY +
 
 ### 📄 
