@@ -59,7 +59,7 @@ The initial exploitation attempts produced an unusual pattern — the module rep
 
 This was traced to a payload mismatch. The vsftpd backdoor does not deliver a staged Meterpreter payload — it simply binds `/bin/sh` to a raw TCP listener on port 6200. Metasploit was configured to negotiate a Meterpreter session on top of this connection, which the raw shell could not support, causing the session to die on handshake.
 
-**Resolution:** Selecting a plain, unstaged command-shell payload rather than a Meterpreter-based one aligned the payload type with what the backdoor actually provides, allowing a stable session to be established.
+**Resolution:** Selecting a PLAIN REVERSE COMMAND SHELL.
 
 This is a useful reminder that not every exploit is compatible with a full Meterpreter session by default — matching payload type to the actual mechanism of the vulnerability (in this case, a bare shell bind rather than a staged payload delivery) is essential for a stable foothold.
 
