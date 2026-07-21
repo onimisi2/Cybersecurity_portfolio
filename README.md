@@ -33,6 +33,8 @@ Welcome! I'm Stephen Smith, an aspiring penetration tester with hands-on experie
   
 - [KAPAS_INT'L PART2](PROJECTS/KAPAS_PART_2.md)
    Endpoint, peripheral, and data loss prevention controls: removable media restrictions, device installation policies, Attack Surface Reduction rules.
+
+- [VSPFTD BACKDOOR EXPLOITATION](PROJECTS/vsftpd 2.3.4 Backdoor Exploitation (CVE-2011-2523))
   
 ### 📜 Certifications
 - CCNA
